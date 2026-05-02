@@ -1,0 +1,30 @@
+class Solution {
+    public static int[] lcmAndGcd(int a, int b) {
+        int x=a;
+        int y=b;
+        int lcm=0;
+        int gcd=0;
+        while(a!=0&&b!=0)
+        {   if(a>b)
+            {
+              a=a%b;
+            }
+            else
+            {
+                b=b%a;
+            }
+         if(a!=0)
+        {
+            gcd=a;
+        }
+        else
+        {
+            gcd=b;
+        }
+        }
+       
+            lcm=(x*y)/gcd;
+        
+        return new int[] {lcm, gcd};
+    }
+}
