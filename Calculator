@@ -1,0 +1,17 @@
+class Solution {
+    public void calculate(int a, int b, int operator) {
+     int ans = 0;
+        if (operator == 1) {
+            ans = a + b;
+            System.out.print(ans);
+        } else if (operator == 2) {
+            ans = b - a;
+            System.out.print(ans);
+        } else if (operator == 3) {
+            ans = a * b;
+            System.out.print(ans);
+        } else {
+            System.out.print("Invalid Input");
+        }
+    }
+}
