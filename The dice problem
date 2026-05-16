@@ -1,0 +1,6 @@
+class Solution {
+    static int oppositeFaceOfDice(int n) {
+         int res=7-n;
+         return res;
+    }
+}
