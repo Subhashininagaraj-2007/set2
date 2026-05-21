@@ -1,0 +1,10 @@
+class Solution {
+    public static int nthDay(int d, int n) {
+        n=n%7;
+        int ans=d-n; 
+        if(ans<0)
+         ans+=7;
+         return ans;
+      
+    }
+}
