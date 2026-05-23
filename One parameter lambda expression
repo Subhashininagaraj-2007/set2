@@ -1,0 +1,6 @@
+class Solution {
+
+    public static Multiply helperFunction() {
+        return (n)->n*5;
+    }
+}
